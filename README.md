@@ -20,7 +20,7 @@
 #### Hardware
 - **Procesador**: Intel i5 o equivalente (recomendado i7 o superior)
 - **RAM**: 8 GB (recomendado 16 GB o más)
-- **Almacenamiento**: 10 GB libres (recomendado SSD 20 GB)
+- **Almacenamiento**: 2 GB de espacio libre
 - **Pantalla**: Resolución 1280x720 (recomendado Full HD)
 - **Conexión**: Internet estable
 
