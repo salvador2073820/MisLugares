@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores principales -->
+    <color name="colorPrimary">#1976D2</color> <!-- Azul -->
+    <color name="colorPrimaryDark">#1565C0</color> <!-- Azul oscuro -->
+    <color name="colorAccent">#03A9F4</color> <!-- Azul claro -->
+
+    <!-- Fondo y texto -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

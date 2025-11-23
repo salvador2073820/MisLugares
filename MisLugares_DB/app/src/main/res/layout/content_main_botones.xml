@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="30dp">
+
+        <Button
+            android:id="@+id/btnMostrar"
+            style="@style/BotonAzulClaro"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="MOSTRAR LUGARES"
+            android:layout_marginTop="16dp"/>
+
+        <Button
+            android:id="@+id/btnPreferencias"
+            style="@style/BotonAzulClaro"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="PREFERENCIAS"
+            android:layout_marginTop="16dp"/>
+
+        <Button
+            android:id="@+id/btnAcerca"
+            style="@style/BotonAzulClaro"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="ACERCA DE"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/btnSalir"
+            style="@style/BotonAzulClaro"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="SALIR"
+            android:layout_marginTop="16dp"
+            android:onClick="salir"/>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

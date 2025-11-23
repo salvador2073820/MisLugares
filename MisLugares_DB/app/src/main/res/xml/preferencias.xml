@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:key="notificaciones"
+        android:title="Mandar Notificaciones"
+        android:summary="Notificar si estamos cerca del lugar"
+        android:defaultValue="false" />
+
+    <EditTextPreference
+        android:key="maximo"
+        android:title="Máximo de lugares a mostrar"
+        android:summary="Limita en número de valores que se muestran"
+        android:inputType="number"
+        android:defaultValue="12" />
+
+    <ListPreference
+        android:key="orden"
+        android:title="Orden de los lugares"
+        android:summary="Que lugares quieres que aparezcan antes"
+        android:entries="@array/tiposOrden"
+        android:entryValues="@array/tiposOrdenValores"
+        android:defaultValue="0" />
+
+    <CheckBoxPreference
+        android:key="musica"
+        android:title="Activar música"
+        android:summary="Activa o desactiva la música de fondo"
+        android:defaultValue="true" />
+
+</androidx.preference.PreferenceScreen>
